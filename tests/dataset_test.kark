@@ -1,0 +1,9 @@
+// Karkain Data SDK - focused tests.
+
+func dataset_record_count() {
+    return 0
+}
+
+func test_dataset_record_count() {
+    assert_eq(dataset_record_count(), 0)
+}

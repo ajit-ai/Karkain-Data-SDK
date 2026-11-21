@@ -1,5 +1,8 @@
-// Karkain X SDK - runnable hello example.
+// Karkain Data SDK - first working product example.
+
+import std.json
 
 func main() {
-    println("Hello, Karkain X SDK!")
+    let doc = "{\"records\":[]}"
+    println(json_array_length(doc))
 }

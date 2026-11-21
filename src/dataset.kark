@@ -1,0 +1,30 @@
+// Karkain Data SDK - dataset module.
+//
+// Initial implementation boundary for the first working product: a typed
+// dataset handle over the verified Karkain data capability surface
+// (std.string / std.collections / std.json / std.encoding / std.numerics).
+
+import std.string
+import std.collections
+import std.json
+import std.encoding
+
+func dataset_name() {
+    return "karkain-dataset"
+}
+
+func dataset_records() {
+    return []
+}
+
+func dataset_to_json() {
+    return "{}"
+}
+
+func dataset_from_json(text) {
+    return ""
+}
+
+func dataset_count() {
+    return 0
+}
